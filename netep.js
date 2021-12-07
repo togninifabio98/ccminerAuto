@@ -63,17 +63,17 @@ const netep = async (isFirst = true) => {
 	    }
 	    if(index % 7 == 0){
 	    	document.getElementsByTagName("colab-run-button")[4].click();
-	    	console.log('%cNgaso disit', 'color: #ccb51f');
+	    	console.log('%cSANTAI DULU', 'color: #ccb51f');
 	    }
 	    var siki = new Date();
 	    siki = siki.getTime();
 	    n = siki - ts;
 	    h = Math.floor(n / (1000*60*60));
 	    m = Math.floor((n - h * (1000*60*60)) / (1000*60));
-	    console.log('%cuis mlaku '+ h + ' jm, '+ m + ' mt', 'color: #19bd5d');
+	    console.log('%RUNING '+ h + ' jm, '+ m + ' mt', 'color: #19bd5d');
     }
-    console.log('--------------- Macule Rampung Setengari! ---------------------');
-    console.log('--------------- Lg siap siap macul maning ---------------------');
+    console.log('--------------- Macul Selesai Setengahhari! ---------------------');
+    console.log('--------------- Lg siap siap gas lagi	 ---------------------');
     await sleep(350000);
     netep();
 }
